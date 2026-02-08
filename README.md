@@ -64,6 +64,8 @@ Lies Of P/
 │   ├── locations/            # Imagens dos locais do jogo
 │   ├── inimigos/             # Imagens dos inimigos
 │   └── bosses/               # Imagens dos bosses
+
+````
 🎨 Interface & UX
 Tema escuro inspirado no jogo
 
