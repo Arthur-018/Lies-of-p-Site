@@ -43,6 +43,7 @@ Este site foi criado para **estudos de HTML, CSS e JavaScript**, com o objetivo 
 
 ## 📂 Estrutura do Projeto
 
+```text
 Lies Of P/
 ├── index.html                # Página principal (Home)
 ├── README.md                 # Documentação do projeto
@@ -63,50 +64,42 @@ Lies Of P/
 │   ├── locations/            # Imagens dos locais do jogo
 │   ├── inimigos/             # Imagens dos inimigos
 │   └── bosses/               # Imagens dos bosses
+🎨 Interface & UX
+Tema escuro inspirado no jogo
 
+Layout focado em imersão
 
+Uso de sombras, contrastes e overlays
 
----
+Navegação clara e objetiva
 
-## 🎨 Interface & UX
+🧠 Destaques Técnicos
+Uso de atributos data-* para conteúdo dinâmico
 
-- Tema escuro inspirado no jogo
-- Layout focado em imersão
-- Uso de sombras, contrastes e overlays
-- Navegação clara e objetiva
+Manipulação direta do DOM
 
----
+Código organizado e legível
 
-## 🧠 Destaques Técnicos
+Estrutura preparada para expansão (DLCs e novos dados)
 
-- Uso de atributos **`data-*`** para conteúdo dinâmico
-- Manipulação direta do **DOM**
-- Código organizado e legível
-- Estrutura preparada para expansão (DLCs e novos dados)
+🚧 Melhorias Futuras
+Migração para Vite + React
 
----
+Centralização de dados em JSON
 
-## 🚧 Melhorias Futuras
+Loop infinito real no carousel
 
-- Migração para **Vite + React**
-- Centralização de dados em **JSON**
-- Loop infinito real no carousel
-- Suporte completo a mobile (swipe)
-- Acessibilidade (ARIA / teclado)
-- UI inspirada em biblioteca estilo Steam
+Suporte completo a mobile (swipe)
 
----
+Acessibilidade (ARIA / teclado)
 
-## 📌 Status
+UI inspirada em biblioteca estilo Steam
 
+📌 Status
 🟢 Em desenvolvimento contínuo
 
----
-
-## 👨‍💻 Autor
-
-**Arthur Toledo** 
-Desenvolvedor Frontend / Mobile / Backend em formação  
+👨‍💻 Autor
+ARTHUR TOLEDO
+Desenvolvedor Frontend / Mobile / Backend em formação
 
 🚀 Foco em prática, evolução contínua e projetos sólidos
-
