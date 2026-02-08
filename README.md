@@ -66,42 +66,44 @@ Lies Of P/
 │   └── bosses/               # Imagens dos bosses
 
 ````
-🎨 Interface & UX
-Tema escuro inspirado no jogo
+## 🎨 Interface & UX
 
-Layout focado em imersão
+- Tema escuro inspirado no jogo  
+- Layout focado em imersão  
+- Uso de sombras, contrastes e overlays  
+- Navegação clara e objetiva  
 
-Uso de sombras, contrastes e overlays
+---
 
-Navegação clara e objetiva
+## 🧠 Destaques Técnicos
 
-🧠 Destaques Técnicos
-Uso de atributos data-* para conteúdo dinâmico
+- Uso de atributos **`data-*`** para conteúdo dinâmico  
+- Manipulação direta do **DOM**  
+- Código organizado e legível  
+- Estrutura preparada para expansão (DLCs e novos dados)  
 
-Manipulação direta do DOM
+---
 
-Código organizado e legível
+## 🚧 Melhorias Futuras
 
-Estrutura preparada para expansão (DLCs e novos dados)
+- Migração para **Vite + React**  
+- Centralização de dados em **JSON**  
+- Loop infinito real no carousel  
+- Suporte completo a mobile (swipe)  
+- Acessibilidade (ARIA / teclado)  
+- UI inspirada em biblioteca estilo Steam  
 
-🚧 Melhorias Futuras
-Migração para Vite + React
+---
 
-Centralização de dados em JSON
+## 📌 Status
 
-Loop infinito real no carousel
+🟢 **Em desenvolvimento contínuo**
 
-Suporte completo a mobile (swipe)
+---
 
-Acessibilidade (ARIA / teclado)
+## 👨‍💻 Autor
 
-UI inspirada em biblioteca estilo Steam
-
-📌 Status
-🟢 Em desenvolvimento contínuo
-
-👨‍💻 Autor
-ARTHUR TOLEDO
-Desenvolvedor Frontend / Mobile / Backend em formação
+**ARTHUR TOLEDO**  
+Desenvolvedor Frontend / Mobile / Backend em formação  
 
 🚀 Foco em prática, evolução contínua e projetos sólidos
