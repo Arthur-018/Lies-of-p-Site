@@ -1,11 +1,4 @@
-// ==================================================
-// LIES OF P - script.js COMPLETO
-// ✅ Menu hambúrguer
-// ✅ Modal "Sobre" (fecha no botão e clicando fora)
-// ✅ Viewer modal (imagem + descrição)
-// ✅ Carousel Steam-like (loop real)
-// ✅ Voltar (Prev) só até o que já passou (backBudget)
-// ==================================================
+
 
 // ===============================
 // MENU HAMBURGUER
@@ -86,7 +79,7 @@ const prevBtn = document.querySelector("#carouselPrev");
 const nextBtn = document.querySelector("#carouselNext");
 
 // ===============================
-// LISTA DE LOCAIS + DESCRIÇÕES (Base Game)
+// LISTA DE LOCAIS + DESCRIÇÕES
 // ===============================
 const LOCATIONS = [
   { c: 1, name: "Krat Central Station", desc: "Área inicial do jogo. Corredores e plataformas servem como tutorial de combate e exploração." },
@@ -116,7 +109,7 @@ const LOCATIONS = [
 ];
 
 // ===============================
-// GERADOR DE CARDS (img/locations/)
+// GERADOR DE CARDS 
 // ===============================
 function slugify(name) {
   return name
@@ -146,15 +139,12 @@ function buildItem(loc) {
   return el;
 }
 
-// ✅ POPULA O TRACK (se você usa <article> fixo no HTML, comente esse bloco)
 if (track) {
   track.innerHTML = "";
   LOCATIONS.forEach((loc) => track.appendChild(buildItem(loc)));
 }
 
-// ===============================
-// CLIQUES NOS CARDS (inclui clones)
-// ===============================
+
 function bindItemClicks() {
   if (!track) return;
   track.querySelectorAll(".carousel-item").forEach((item) => {
@@ -186,7 +176,7 @@ const GAP = 14;
 
 let rafId = null;
 
-// ✅ CRÉDITO: quantos cards já passaram (logo, quantos você pode voltar)
+
 let backBudget = 0;
 
 function setPrevLocked(isLocked) {
@@ -251,7 +241,6 @@ function step() {
   // vx pode ser + (mais rápido pra esquerda) ou - (voltar pra direita)
   let dx = baseSpeed + vx;
 
-  // ✅ se dx quer ir pra direita (dx < 0), só permite se backBudget > 0
   if (dx < 0 && backBudget <= 0) {
     dx = 0; // trava total, não volta
   }
