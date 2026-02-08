@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inimigos Lies Of P</title>
+  
+  <link rel="icon" href="../img/LiesOfPIcon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="../Styles/inimigos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="../img/iconSemFundo.png" alt="Lies of P" class="brand__icon" />
+      <div class="brand__text">
+        <h1>Inimigos</h1>
+        <p>Lies of P</p>
+      </div>
+    </div>
+    <a class="btn-back" href="../index.html">Voltar</a>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="search">
+        <input id="searchInput" type="text" placeholder="Pesquisar inimigo..." autocomplete="off" />
+      </div>
+
+      
+      <div class="panel">
+        <h2 class="panel__title">Seções</h2>
+        <div id="sectionList" class="category-list" aria-label="Lista de seções"></div>
+      </div>
+
+      <div class="panel">
+        <h2 class="panel__title">Categorias</h2>
+        <div id="categoryList" class="category-list" aria-label="Lista de categorias"></div>
+      </div>
+
+      <div class="panel" id="enemyPanel" data-hidden="true">
+        <div class="panel__row">
+          <h2 class="panel__title">Inimigos</h2>
+          <span id="activeCategoryBadge" class="mini-badge">—</span>
+        </div>
+        <div id="enemyList" class="enemy-list" aria-label="Lista de inimigos"></div>
+      </div>
+    </aside>
+
+    <section class="content" aria-live="polite">
+      <div class="empty-state" id="emptyState">
+        <h2>Selecione um inimigo</h2>
+      </div>
+
+      <div class="details hidden" id="details">
+        <div class="details__header">
+          <h2 id="enemyName">—</h2>
+          <span class="badge" id="enemyCategory">—</span>
+          <button class="btn-close" id="closeBtn" type="button" aria-label="Fechar">✕</button>
+        </div>
+
+        <div class="details__grid">
+          <div class="card">
+            <h3>Descrição</h3>
+            <p id="enemyDescription">—</p>
+          </div>
+
+          <div class="card media">
+            <h3>Imagem do inimigo</h3>
+            <div class="media__frame">
+              <img id="enemyImage" alt="" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card location">
+          <div class="location__head">
+            <div>
+              <h3>Local</h3>
+              <p class="location__meta">
+                <span id="enemyLocation">—</span>
+                <span class="sep">•</span>
+                <span id="enemyChapter">—</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="media__frame media__frame--wide">
+            <img id="locationImage" alt="" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../Scripts/inimgos.js"></script>
+</body>
+</html>
