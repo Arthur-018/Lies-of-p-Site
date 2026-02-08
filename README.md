@@ -44,25 +44,26 @@ Este site foi criado para **estudos de HTML, CSS e JavaScript**, com o objetivo 
 ## 📂 Estrutura do Projeto
 
 Lies Of P/
-├── index.html # Página principal
-├── README.md # Documentação do projeto
+├── index.html                # Página principal (Home)
+├── README.md                 # Documentação do projeto
 │
-├── HTML/ # Páginas secundárias
-│ ├── inimigos.html # Enciclopédia de inimigos
-│ └── boses.html # Bosses do jogo
+├── HTML/                     # Páginas do site
+│   ├── inimigos.html         # Enciclopédia de inimigos
+│   └── boses.html            # Lista de bosses
 │
-├── Styles/ # Estilos específicos por página
-│ ├── inimigos.css
-│ └── boses.css
+├── Styles/                   # Estilos CSS por página
+│   ├── inimigos.css          # Estilos da página de inimigos
+│   └── boses.css             # Estilos da página de bosses
 │
-├── Scripts/ # Lógica e interações em JavaScript
-│ ├── inimigos.js
-│ └── boses.js
+├── Scripts/                  # Lógica e interações (JavaScript)
+│   ├── inimigos.js           # Funcionalidades da enciclopédia
+│   └── boses.js              # Funcionalidades dos bosses
 │
-├── img/ # Assets do projeto
-│ ├── locations/ # Imagens dos locais
-│ ├── inimigos/ # Imagens dos inimigos
-│ └── bosses/ # Imagens dos bosses
+├── img/                      # Assets visuais do projeto
+│   ├── locations/            # Imagens dos locais do jogo
+│   ├── inimigos/             # Imagens dos inimigos
+│   └── bosses/               # Imagens dos bosses
+
 
 
 ---
